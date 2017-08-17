@@ -1,0 +1,15 @@
+<ion-header>
+  <ion-navbar color="primary">
+    <ion-title>
+      Real-Time Chat
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-item no-padding>
+    <ion-label floating>Username</ion-label>
+    <ion-input type="text" [(ngModel)]="username" ></ion-input>
+  </ion-item>
+  <button ion-button block margin-top (click)="loginUser()" >Login</button>
+</ion-content>
